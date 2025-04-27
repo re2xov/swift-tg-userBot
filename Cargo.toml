@@ -1,0 +1,22 @@
+[package]
+name = "telegram-userbot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+grammers-client = "0.7"
+grammers-session = "0.7"
+grammers-tl-types = "0.7" 
+regex = "1.10"
+tokio = { version = "1", features = ["full"] }
+lazy_static = "1.4"
+log = "0.4"
+env_logger = "0.10"
+dotenv = "0.15.0"
+rand = "0.9.1"
+
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
