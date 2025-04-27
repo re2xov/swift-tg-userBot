@@ -30,13 +30,13 @@ nano .env
 
 ```
 ### После проведенных выше описанных мероприятий, подгружаете файлы из репозитория по следующим путям:
-- main.rs -> /home/bot-likedws/src
+- src -> /home/bot-likedws/
 - Cargo.toml -> /home/bot-likedws/
 
 ### 📥 Настройка .env (с root-доступом)
-TELEGRAM_PHONE="+XXXXXXXXXXX" 
-TELEGRAM_API_ID=1234567
-TELEGRAM_API_HASH="0123456789abcdef"
+- TELEGRAM_PHONE="+XXXXXXXXXXX" 
+- TELEGRAM_API_ID=1234567
+- TELEGRAM_API_HASH="0123456789abcdef"
 
 ### 📥 Сборка и запуск
 
