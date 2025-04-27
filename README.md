@@ -52,6 +52,7 @@ cargo build --release
 sudo apt install -y tmux
 tmux new -s bot-session
 cargo run --release
+
 #Вводите код
 #ctrl-b, D
 ```
